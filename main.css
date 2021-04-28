@@ -1,0 +1,29 @@
+.box-holder {
+    align-items: center;
+     background: url('https://dbcms.s3.amazonaws.com/devbridgecom/bcms/image/7bc027ab875649d58ff2ba7d30a355e0/move-box.png') center no-repeat;
+     border: 5px solid #000;
+    border-radius: 5px;
+    box-sizing: border-box;
+     display: flex;
+     height: 200px;
+     justify-content: flex-end;
+     padding: 45px;
+     width: 500px;
+ }
+ 
+ .box {
+     background-color: yellow;
+     border-radius: 5px;
+     height: 40px;
+     margin: 10px;
+     width: 60px;
+ }
+ 
+ /* Make changes ONLY in the ".box--green" rule! */
+ /* Copy/paste ONLY this rule to the test answer! */
+ .box--green {
+     background-color: #90ee90;
+   margin-right: auto;
+     
+ }
+ 
